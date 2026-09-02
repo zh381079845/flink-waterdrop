@@ -1,0 +1,90 @@
+{
+  "type": "FeatureCollection",
+  "name": "zones_grids",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "WPZ-1",
+      "properties": { "name": "水源一级保护区", "level": "1", "layer": "water_protection", "owner": "" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.25, 40.00], [116.25, 40.08], [116.35, 40.08], [116.35, 40.00], [116.25, 40.00]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "WPZ-2",
+      "properties": { "name": "水源二级保护区", "level": "2", "layer": "water_protection", "owner": "" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.22, 39.97], [116.22, 40.12], [116.38, 40.12], [116.38, 39.97], [116.22, 39.97]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HERITAGE-001",
+      "properties": { "name": "文物建设控制地带", "level": "", "layer": "heritage", "owner": "" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.46, 39.91], [116.46, 39.94], [116.50, 39.94], [116.50, 39.91], [116.46, 39.91]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GRID-01",
+      "properties": { "name": "城管网格01", "level": "", "layer": "grid", "owner": "班组甲" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.40, 39.90], [116.40, 39.95], [116.45, 39.95], [116.45, 39.90], [116.40, 39.90]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GRID-02",
+      "properties": { "name": "城管网格02", "level": "", "layer": "grid", "owner": "班组乙" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.45, 39.90], [116.45, 39.95], [116.50, 39.95], [116.50, 39.90], [116.45, 39.90]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EVT-001",
+      "properties": { "name": "市容事件", "level": "", "layer": "event", "owner": "" },
+      "geometry": { "type": "Point", "coordinates": [116.42, 39.92] }
+    },
+    {
+      "type": "Feature",
+      "id": "FLOOD-001",
+      "properties": { "name": "淹没区", "level": "", "layer": "flood", "owner": "" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.37, 39.94], [116.37, 39.98], [116.42, 39.98], [116.42, 39.94], [116.37, 39.94]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HOLE-PARK",
+      "properties": { "name": "带湖公园地块", "level": "", "layer": "landuse", "owner": "" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [[116.32, 39.92], [116.32, 40.02], [116.48, 40.02], [116.48, 39.92], [116.32, 39.92]],
+          [[116.36, 39.95], [116.44, 39.95], [116.44, 39.99], [116.36, 39.99], [116.36, 39.95]]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "MULTI-PARCEL",
+      "properties": { "name": "一宗多地", "level": "", "layer": "multi_parcel", "owner": "" },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [[[116.10, 39.80], [116.10, 39.85], [116.15, 39.85], [116.15, 39.80], [116.10, 39.80]]],
+          [[[116.70, 40.10], [116.70, 40.15], [116.75, 40.15], [116.75, 40.10], [116.70, 40.10]]]
+        ]
+      }
+    }
+  ]
+}

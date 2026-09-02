@@ -1,0 +1,36 @@
+######
+###### This configuration file demonstrates how to use the Split transform in Waterdrop
+######
+
+env {
+  # Set the Flink batch processing environment
+  execution.parallelism = 1
+  job.name = "Waterdrop Split Transform Demo"
+}
+
+source {
+  # Use a file source to read CSV data
+  FileSource {
+    path = "/path/to/your/input.csv"
+    format.type = "csv"
+    schema = "[{\"type\":\"Int\"},{\"type\":\"string\"},{\"type\":\"string\"}]"
+    result_table_name = "input_table"
+    field_name = "id,name,attributes"
+  }
+}
+
+transform {
+  # Use the Split transform to split the 'attributes' field
+  Split {
+    source_table_name = "input_table"
+    result_table_name = "split_table"
+    field = "attributes"
+    delimiter = ","
+    new_fields = ["attribute1", "attribute2", "attribute3"]
+  }
+}
+
+sink {
+  # Output the results to the console
+  ConsoleSink {}
+}

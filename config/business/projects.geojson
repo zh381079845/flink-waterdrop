@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "name": "projects",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PRJ-CONFLICT",
+      "properties": { "name": "侵占红线与农田项目", "status": "拟建", "layer": "project" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.42, 39.96], [116.42, 40.00], [116.48, 40.00], [116.48, 39.96], [116.42, 39.96]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRJ-OK",
+      "properties": { "name": "边界内合规项目", "status": "拟建", "layer": "project" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.55, 39.88], [116.55, 39.94], [116.62, 39.94], [116.62, 39.88], [116.55, 39.88]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRJ-OUTSIDE",
+      "properties": { "name": "开发边界外项目", "status": "拟建", "layer": "project" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[117.50, 39.50], [117.50, 39.55], [117.58, 39.55], [117.58, 39.50], [117.50, 39.50]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRJ-POINT",
+      "properties": { "name": "选址点-靠近危化", "status": "选址", "layer": "project" },
+      "geometry": { "type": "Point", "coordinates": [116.45, 39.97] }
+    }
+  ]
+}

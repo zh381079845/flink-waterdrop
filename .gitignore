@@ -1,0 +1,68 @@
+# Build
+target/
+**/target/
+plugins/
+*.class
+*.jar
+!**/src/main/resources/**/*.jar
+*.war
+*.ear
+hs_err_pid*
+dependency-reduced-pom.xml
+
+# Maven / Ivy
+.mvn/wrapper/maven-wrapper.jar
+.flattened-pom.xml
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs / temp
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# Node (frontend low-code, optional)
+node_modules/
+dist/
+.npm/
+package-lock.json.bak
+
+# Local / secrets
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+**/application-local.*
+
+# Runtime output / scratch
+config/writedir
+config/writedir1/
+config/writedir2
+**/.part-*.inprogress.*
+**/writedir*/
+
+# Test / coverage
+.coverage
+coverage/
+*.exec
+
+# Scala
+.bsp/

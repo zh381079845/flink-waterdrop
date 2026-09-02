@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "name": "development_boundary",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "DEV-001",
+      "properties": { "name": "城镇开发边界", "layer": "development_boundary" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.20, 39.80], [116.20, 40.15], [116.75, 40.15], [116.75, 39.80], [116.20, 39.80]]]
+      }
+    }
+  ]
+}

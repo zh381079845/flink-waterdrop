@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "name": "facilities",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "HOSP-001",
+      "properties": { "name": "中心医院", "type": "hospital", "layer": "facility" },
+      "geometry": { "type": "Point", "coordinates": [116.40, 39.97] }
+    },
+    {
+      "type": "Feature",
+      "id": "SCH-001",
+      "properties": { "name": "第一小学", "type": "school", "layer": "facility" },
+      "geometry": { "type": "Point", "coordinates": [116.52, 39.92] }
+    },
+    {
+      "type": "Feature",
+      "id": "FIRE-001",
+      "properties": { "name": "消防站", "type": "fire_station", "layer": "facility" },
+      "geometry": { "type": "Point", "coordinates": [116.48, 39.95] }
+    },
+    {
+      "type": "Feature",
+      "id": "STORE-A",
+      "properties": { "name": "品牌店A", "type": "store", "layer": "facility" },
+      "geometry": { "type": "Point", "coordinates": [116.56, 39.90] }
+    },
+    {
+      "type": "Feature",
+      "id": "STORE-B",
+      "properties": { "name": "竞品店B", "type": "store", "layer": "facility" },
+      "geometry": { "type": "Point", "coordinates": [116.565, 39.901] }
+    },
+    {
+      "type": "Feature",
+      "id": "HAZARD-001",
+      "properties": { "name": "危化品库", "type": "hazard", "layer": "facility" },
+      "geometry": { "type": "Point", "coordinates": [116.44, 39.96] }
+    }
+  ]
+}

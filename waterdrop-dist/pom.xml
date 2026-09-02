@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.thupdi.waterdrop</groupId>
+        <artifactId>flink-waterdrop</artifactId>
+        <version>2.0.4</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <properties>
+        <!-- disable mvn deploy to central maven repo by default -->
+        <maven.deploy.skip>true</maven.deploy.skip>
+    </properties>
+
+    <artifactId>waterdrop-dist</artifactId>
+    <packaging>pom</packaging>
+    <build>
+        <resources>
+            <resource>
+                <directory>../bin/</directory>
+                <includes>
+                    <include>**/*.*</include>
+                </includes>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.4</version>
+                <executions>
+                    <execution><!-- 配置执行器 -->
+                        <phase>package</phase><!-- 绑定到package生命周期阶段上 -->
+                        <goals>
+                            <goal>single</goal><!-- 只运行一次 -->
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <attach>false</attach>
+                    <descriptors>
+                        <descriptor>assembly.xml</descriptor> <!--   这个是assembly 所在位置；${basedir}是指项目的的根路径  -->
+                    </descriptors>
+                </configuration>
+
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

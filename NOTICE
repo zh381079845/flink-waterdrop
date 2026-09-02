@@ -1,0 +1,29 @@
+Flink Waterdrop Spatial
+Copyright 2024-2026 Flink Waterdrop Spatial contributors
+
+This product includes software developed for spatial processing on Apache Flink
+(plugin-flink-transform-spatial and related modules).
+
+---------------------------------------------------------------------------
+This distribution is derived in part from Waterdrop (InterestingLab), which was
+later donated to the Apache Software Foundation as Apache SeaTunnel.
+Waterdrop / SeaTunnel are licensed under the Apache License, Version 2.0.
+See: https://github.com/apache/seatunnel
+     https://seatunnel.apache.org/
+
+Package names under io.github.interestinglab.waterdrop may retain historical
+namespace from the Waterdrop lineage; they do not imply affiliation with or
+endorsement by InterestingLab or the Apache Software Foundation.
+
+---------------------------------------------------------------------------
+This product bundles or depends on third-party open source components,
+including but not limited to:
+
+  - Apache Flink (Apache License 2.0)
+  - JTS Topology Suite / LocationTech (Eclipse Distribution License / EPL)
+  - GeoTools (LGPL; used as dependency — see GeoTools project licenses)
+  - GeographicLib-Java (MIT)
+  - fastjson (Apache License 2.0)
+
+Please review each dependency's license for your redistribution scenario.
+GeoTools is LGPL; linking and redistribution obligations may apply.

@@ -1,0 +1,2 @@
+io.github.interestinglab.waterdrop.flink.sink.MyJdbcSink
+io.github.interestinglab.waterdrop.flink.sink.JdbcBatchSink

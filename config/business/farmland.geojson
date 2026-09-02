@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "name": "farmland",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "FARM-001",
+      "properties": { "name": "永久基本农田A", "layer": "farmland" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.40, 39.95], [116.40, 40.10], [116.60, 40.10], [116.60, 39.95], [116.40, 39.95]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FARM-002",
+      "properties": { "name": "永久基本农田B-远处", "layer": "farmland" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[117.20, 40.40], [117.20, 40.48], [117.30, 40.48], [117.30, 40.40], [117.20, 40.40]]]
+      }
+    }
+  ]
+}

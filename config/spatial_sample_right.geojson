@@ -1,0 +1,14 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "zone-1",
+      "properties": { "name": "规划区C" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.18, 39.08], [116.18, 39.18], [116.28, 39.18], [116.28, 39.08], [116.18, 39.08]]]
+      }
+    }
+  ]
+}

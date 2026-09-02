@@ -1,0 +1,4 @@
+io.github.interestinglab.waterdrop.flink.transform.SpatialUdfRegister
+io.github.interestinglab.waterdrop.flink.transform.SpatialJoin
+io.github.interestinglab.waterdrop.flink.transform.SpatialMaterialize
+io.github.interestinglab.waterdrop.flink.transform.SpatialBroadcastJoin

@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection",
+  "name": "parcels_houses",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PARCEL-A",
+      "properties": { "name": "宗地A", "layer": "parcel", "parcel_id": "" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.55, 39.88], [116.55, 39.92], [116.60, 39.92], [116.60, 39.88], [116.55, 39.88]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PARCEL-B",
+      "properties": { "name": "宗地B-与A重叠", "layer": "parcel", "parcel_id": "" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.58, 39.90], [116.58, 39.94], [116.63, 39.94], [116.63, 39.90], [116.58, 39.90]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PARCEL-C",
+      "properties": { "name": "宗地C-远处", "layer": "parcel", "parcel_id": "" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[117.00, 39.70], [117.00, 39.74], [117.05, 39.74], [117.05, 39.70], [117.00, 39.70]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HOUSE-OK",
+      "properties": { "name": "落宗房屋", "layer": "house", "parcel_id": "PARCEL-A" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.56, 39.89], [116.56, 39.905], [116.575, 39.905], [116.575, 39.89], [116.56, 39.89]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HOUSE-OUT",
+      "properties": { "name": "越界房屋", "layer": "house", "parcel_id": "PARCEL-A" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.59, 39.91], [116.59, 39.93], [116.61, 39.93], [116.61, 39.91], [116.59, 39.91]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "RES-001",
+      "properties": { "name": "居住小区", "layer": "residential", "parcel_id": "" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.38, 39.95], [116.38, 39.99], [116.43, 39.99], [116.43, 39.95], [116.38, 39.95]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BUILD-NEAR-PIPE",
+      "properties": { "name": "近管线建筑", "layer": "building", "parcel_id": "" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.549, 39.899], [116.549, 39.901], [116.551, 39.901], [116.551, 39.899], [116.549, 39.899]]]
+      }
+    }
+  ]
+}

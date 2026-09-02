@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "name": "roads_pipelines",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ROAD-001",
+      "properties": { "name": "穿红线道路", "type": "road", "layer": "road" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[116.20, 39.85], [116.45, 39.98], [116.65, 39.93]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ROAD-002",
+      "properties": { "name": "远端道路", "type": "road", "layer": "road" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[117.40, 39.40], [117.55, 39.45], [117.70, 39.42]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PIPE-001",
+      "properties": { "name": "燃气管线", "type": "gas_pipeline", "layer": "road" },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[116.50, 39.88], [116.55, 39.90], [116.60, 39.91]]
+      }
+    }
+  ]
+}

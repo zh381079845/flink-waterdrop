@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "eco-1",
+      "properties": { "name": "生态保护红线A", "layer_name": "生态保护红线" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.0, 39.0], [116.0, 39.2], [116.2, 39.2], [116.2, 39.0], [116.0, 39.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "farm-1",
+      "properties": { "name": "基本农田B", "layer_name": "永久基本农田" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.15, 39.05], [116.15, 39.25], [116.35, 39.25], [116.35, 39.05], [116.15, 39.05]]]
+      }
+    }
+  ]
+}

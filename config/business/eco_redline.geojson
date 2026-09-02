@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "name": "eco_redline",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ECO-001",
+      "properties": { "name": "北部生态红线", "level": "红线", "layer": "eco_redline" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116.30, 39.90], [116.30, 40.05], [116.50, 40.05], [116.50, 39.90], [116.30, 39.90]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ECO-002",
+      "properties": { "name": "西部飞地红线", "level": "红线", "layer": "eco_redline" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[115.80, 39.70], [115.80, 39.78], [115.90, 39.78], [115.90, 39.70], [115.80, 39.70]]]
+      }
+    }
+  ]
+}
