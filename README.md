@@ -2,12 +2,8 @@
 
 [![Spatial CI](https://img.shields.io/badge/CI-spatial-blue)](.github/workflows/spatial-ci.yml)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/status-v0.1%20preview-orange)](docs/VERSIONING.md)
 
 基于 **Apache Flink 1.13** 的空间计算插件（JTS + GeographicLib），以 Waterdrop 配置驱动方式运行 `st_*` UDF、物化网格与空间 JOIN。
-
-> **v0.1 preview**：能讲清楚、能跑通、有护栏。  
-> **不是** Apache Sedona / PostGIS 兼容实现（函数名 `st_*` 仅为 SQL 习惯）。
 
 ## 快速开始
 
@@ -49,7 +45,7 @@ config/flink.spatial*.conf        # 示例作业
 docs/                             # 设计与规范
 ```
 
-前端低代码说明已移至 [`docs/frontend-lowcode-readme.md`](docs/frontend-lowcode-readme.md)（非本 preview 焦点）。
+前端低代码说明已移至 [`docs/frontend-lowcode-readme.md`](docs/frontend-lowcode-readme.md)。
 
 ## 许可证
 
