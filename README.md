@@ -36,7 +36,6 @@ mvn -pl plugin-flink-transform-spatial -Dtest=SpatialBroadcastJoinMicroBenchmark
 |------|------|
 | [空间插件 README](plugin-flink-transform-spatial/README.md) | 模块能力、Transform、UDF |
 | [性能指南](docs/spatial-performance-guide.md) | 物化、禁止裸 JOIN、调参 |
-| [Sedona 对照（非兼容声明）](docs/sedona-sql-compatibility.md) | 覆盖率与语义差异 |
 | [版本策略](docs/VERSIONING.md) | preview / 兼容承诺 |
 | [兼容矩阵](docs/COMPATIBILITY.md) | Flink / JDK / CRS |
 | [贡献指南](CONTRIBUTING.md) | 如何提 PR |
